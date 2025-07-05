@@ -1,0 +1,9 @@
+langchain
+openai
+faiss-cpu
+streamlit
+gradio
+python-dotenv
+requests
+scapy
+rich
