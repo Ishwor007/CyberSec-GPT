@@ -1,3 +1,4 @@
+
 # main.py
 
 import os
@@ -46,6 +47,11 @@ def main():
             print("\n[Agent]:", response)
         except Exception as e:
             print(f"Error running agent: {e}")
+
+from langchain.agents import initialize_agent, AgentType
+from langchain.chat_models import ChatOpenAI
+from tools.nmap_tool import NmapParserTool
+from tools.cve_lookup_tool import CVELookupTool  # your CVE tool wrapped similarly
 
 if __name__ == "__main__":
     main()

@@ -75,7 +75,9 @@ python main.py
 Type commands like:
 
 Parse the nmap scan at path/to/file.xml
+
 Lookup CVE-2023-34362
+
 Scan the 192.168.1.0/24 subnet and summarize results
 
 Type exit to quit.
@@ -86,6 +88,7 @@ Type exit to quit.
 
 streamlit run app.py
 Upload your Nmap XML scan files and get parsed summaries in the browser.
+
 
 Notes
 Ensure you have enough quota and billing set up on your OpenAI account.
