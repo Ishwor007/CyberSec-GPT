@@ -1,0 +1,13 @@
+langchain
+openai
+faiss-cpu
+streamlit
+gradio
+python-dotenv
+requests
+scapy
+rich
+
+
+NVD_API_KEY 
+OPENAI_API_KEY
